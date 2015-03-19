@@ -10,7 +10,6 @@ $json = json_decode($content, true);
 $track_id = $json['dataset'][$track_id]['track_id'];
 
 $player = <<<EOD
-    <div id="box">
     <object width="300" height="50"><param name="movie" value="http://freemusicarchive.org/swf/trackplayer.swf"/>
         <param name="flashvars" value="track=http://freemusicarchive.org/services/playlists/embed/track/$track_id.xml"/>
         <param name="allowscriptaccess" value="sameDomain"/>

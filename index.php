@@ -21,6 +21,9 @@
             height:50px;
 
         }
+        .nextSong{
+            float:right;
+        }
     </style>
 
 </head>
@@ -29,7 +32,8 @@
 
 <div id="box">
     <div id="media"></div>
-    <a href="#" class="btn btn--m btn--black prevSong">Previous</a>
+    <br>
+    <a href="#" class="btn btn--m btn--black prevSong">Prev</a>
     <a href="#" class="btn btn--m btn--black nextSong">Next</a>
 </div>
 
