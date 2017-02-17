@@ -85,7 +85,7 @@
     </div>
 
     <div id="controls">
-        <a href="#" class="btn btn--m btn--black prevSong">Prev</a>
+        <!--<a href="#" class="btn btn--m btn--black prevSong">Prev</a>-->
         <a href="#" class="btn btn--m btn--black nextSong">Next</a>
     </div>
 </div>
